@@ -1218,7 +1218,7 @@ input[type="radio"] + label:before {
   display: inline-block;
   position: relative; }
   .image img {
-    border: 1px solid black;
+    /* border: 1px solid black; */
     display: block; }
   .image.left, .image.right {
     max-width: 40%; }
@@ -2153,6 +2153,7 @@ button,
       -webkit-object-position: center;
       -ms-object-position: center;
       object-position: center;
+      border-radius: 25px;
       width: 80%; }
   @media screen and (orientation: portrait) {
     #banner {
