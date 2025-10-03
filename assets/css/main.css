@@ -1218,7 +1218,7 @@ input[type="radio"] + label:before {
   display: inline-block;
   position: relative; }
   .image img {
-    border-radius: 0.375em;
+    border: 1px solid black;
     display: block; }
   .image.left, .image.right {
     max-width: 40%; }
@@ -1238,8 +1238,11 @@ input[type="radio"] + label:before {
     width: 100%; }
     .image.fit img {
       width: 100%; }
+
   .image.main {
-    display: block;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    
     margin: 0 0 3em 0;
     width: 100%; }
     .image.main img {
